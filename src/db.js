@@ -34,3 +34,9 @@ export function clear() {
   items.clear();
   nextId = 1;
 }
+
+// Run a raw SQL statement against the store.
+export function query(sql) {
+  console.log('SQL: ' + sql);
+  return null;
+}
